@@ -1,0 +1,38 @@
+productId;description;price;weight
+204205400000;Floralp Vorzugsbutter;3.25;200g
+204205800000;Floralp Vorzugsbutter Schale;2.10;100g
+204205900000;Floralp Vorzugsbutter;4.15;200g
+204206100000;Valflora Vorzugsbutter;1.65;100g
+204206200000;Valflora Vorzugsbutter;3.–;200g
+204206500000;Valflora Butter 4 Portionen;1.65;4 x 15g
+204207600200;Gesalzene Butter;2.25;100g
+204207800700;Berg Vorzugsbutter;3.50;150g
+204208100400;Wiesenrahm Butter Terrasuisse;3.70;200g
+204208600100;Vorzugsbutter;2.75;150g
+204208700100;Vorzugsbutter;3.95;200g
+204208800300;Berg Vorzugsbutter;3.30;150g
+204208800400;Berg Vorzugsbutter;2.95;150g
+204208800600;Berg Vorzugsbutter;2.95;150g
+204208800700;Berg Vorzugsbutter;3.20;150g
+204209000100;Butter gesalzen Schale;2.45;100g
+204209400200;Napfgoldbutter;2.10;100g
+204210500900;Butter Le Marechal pasteurisiert;3.35;150g
+204212000000;Bio Joghurt Butter;4.40;200g
+204212500000;Bio Butter Schale;4.30;200g
+204212600000;Bio Vorzugsbutter;3.95;200g
+204212700000;Bio Kochbutter;4.15;220g
+204215600000;Züribieter Molkereibutter;3.75;200g
+204225000000;Streichfähige Butter;4.35;200g
+204230900100;Käsereibutter;3.45;200g
+204231500700;Beurre Tradition;3.75;150g
+204231500900;Beurre du Pays pasteurisé;3.85;150g
+204231600900;Beurre Tradition pasteurisé;4.40;6 x 20g
+204235000200;Alpbutter;4.60;250g
+204240600000;Die Butter Schale;3.85;250g
+204241600000;Kochbutter;3.05;250g
+204241700000;Die Butter;3.40;250g
+204242000000;M-Budget Butter;2.80;250g
+204250000000;Heidi Vorzugsbutter;3.65;200g
+204272000000;Léger Halbfettbutter;3.25;200g
+204273200000;Butter Laktosefrei rekonstituiert aha!;2.65;100g
+204280000000;Soft Brotaufstrich;2.95;200g

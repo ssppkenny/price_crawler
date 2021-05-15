@@ -1,0 +1,13 @@
+productid;title;price;weight
+7300156507235;Creme Fraiche;12:40;2 dl
+7300156493941;Creme Fraiche;25:95;5 dl
+7300156580474;Lätt Creme Fraiche 15% EKO;12:40;2dl
+7300156493934;Creme Fraiche 34%;11:35;200 ml
+7300156486486;Lätt Creme Fraiche 15%;25:95;5dl
+7310865003805;Creme Fraiche;13:35;2 dl
+7300156507242;Creme Fraiche 34% ;26:95;5 dl
+7310865003843;Lätt Creme Fraiche ;13:35;2 dl
+7310865014702;Minifraiche ;12:20;2 dl
+7310865066763;Creme Fraiche EKO;14:95;2 dl
+7310865003775;Crème Fraiche 34%;30:95;5 dl
+7310865014696;Lätt Crème Fraiche 15%;30:95;5 dl

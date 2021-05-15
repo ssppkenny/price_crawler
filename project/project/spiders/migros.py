@@ -7,7 +7,7 @@ import json
 class MigrosSpider(scrapy.Spider):
     name = 'migros'
     allowed_domains = ['produkte.migros.ch']
-    start_urls = ['https://produkte.migros.ch/sortiment/supermarkt/lebensmittel/fleisch']
+    start_urls = ['https://produkte.migros.ch/sortiment/supermarkt/lebensmittel/milchprodukte-eier/butter']
 
     products = dict()
 
@@ -57,10 +57,10 @@ class MigrosSpider(scrapy.Spider):
             _, number = page[0].split("=")
         else:
             number = 1
-        new_url = 'https://produkte.migros.ch/sortiment/supermarkt/lebensmittel/fleisch' + "?page=" + str(int(number) + 1)
+        new_url = 'https://produkte.migros.ch/sortiment/supermarkt/lebensmittel/milchprodukte-eier/butter' + "?page=" + str(int(number) + 1)
         params = {"page" : number}
         logging.info(new_url)
-        if int(number) <= 26:
+        if int(number) <= 0:
             yield scrapy.Request(new_url, self.parse, meta={
                     'splash': {
                         'endpoint': 'render.html',
@@ -68,6 +68,9 @@ class MigrosSpider(scrapy.Spider):
                     }
                 }, dont_filter = True)
         else:
-            with open('file.txt', 'w') as file:
-                file.write(json.dumps(self.products)) # use `json.loads` to do the reverse
+            with open('butter.txt', 'w') as file:
+                for k, v in self.products.items():
+                    title, price, description = v
+                    file.write(f"{k};{title};{price};{description}\n")
+
 
